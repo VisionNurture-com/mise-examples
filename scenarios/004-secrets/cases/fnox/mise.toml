@@ -1,8 +1,9 @@
 # 値を mise の設定に置かない。fnox が解決して環境に載せる（公式の推奨）。
 # fnox.toml は run.sh が作る。
 [tools]
-fnox = "latest"
-age = "latest"
+# 版を固定する。latest のままだと上流が動いた日に測定値が変わる。
+fnox = "1.35.1"
+age = "1.3.2"
 
 [tasks.show]
 run = 'echo "DATABASE_URL=${DATABASE_URL:-<unset>}"'

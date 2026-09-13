@@ -4,4 +4,5 @@
 experimental = true
 
 [tools]
-age = "latest"
+# 版を固定する。latest のままだと上流が動いた日に測定値が変わる。
+age = "1.3.2"
