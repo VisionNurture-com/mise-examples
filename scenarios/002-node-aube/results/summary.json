@@ -1,6 +1,6 @@
 {
   "aubeInstalled": true,
-  "aubrOnPath": false,
+  "aubrOnPath": true,
   "aubrDirectWorks": true,
   "lockfileUnchanged": true,
   "installedFromExistingLock": true
