@@ -1,0 +1,3 @@
+[tasks.slow]
+timeout = "1s"
+run = "sleep 5"

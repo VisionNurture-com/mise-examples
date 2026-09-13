@@ -1,0 +1,4 @@
+[tasks.build]
+sources = ["src/*.txt"]
+outputs = ["dist/out.txt"]
+run = "mkdir -p dist && cat src/*.txt > dist/out.txt && echo BUILT"

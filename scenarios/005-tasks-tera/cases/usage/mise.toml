@@ -1,0 +1,3 @@
+[tasks.greet]
+usage = 'arg "<who>" help="挨拶する相手"'
+run = 'echo "Hello, ${usage_who}"'

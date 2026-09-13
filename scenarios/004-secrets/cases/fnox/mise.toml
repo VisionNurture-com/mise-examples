@@ -1,0 +1,8 @@
+# 値を mise の設定に置かない。fnox が解決して環境に載せる（公式の推奨）。
+# fnox.toml は run.sh が作る。
+[tools]
+fnox = "latest"
+age = "latest"
+
+[tasks.show]
+run = 'echo "DATABASE_URL=${DATABASE_URL:-<unset>}"'

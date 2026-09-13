@@ -1,0 +1,13 @@
+[tasks.probe]
+usage = 'flag "-v --verbose" help="詳細出力を有効にする"'
+run = '''
+if v=$(printenv usage_verbose); then
+  echo "SET=true"
+  echo "VALUE=[$v]"
+else
+  echo "SET=false"
+  echo "VALUE=<unset>"
+fi
+echo "PLUS=[${usage_verbose:+YES}]"
+echo "DASH=[${usage_verbose:-false}]"
+'''

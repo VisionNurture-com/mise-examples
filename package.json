@@ -1,0 +1,12 @@
+{
+  "name": "mise-examples",
+  "private": true,
+  "type": "module",
+  "description": "mise の設定が何を変えるかを、入れた場合と入れない場合で測るサンプル集",
+  "license": "MIT",
+  "scripts": {
+    "check:structure": "node tools/check-structure.mjs",
+    "check:provenance": "node tools/check-provenance.mjs",
+    "check:neutrality": "node tools/check-neutrality.mjs"
+  }
+}

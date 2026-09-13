@@ -1,0 +1,2 @@
+[tasks.greet]
+run = 'echo "Hello, {{arg(name="who")}}"'

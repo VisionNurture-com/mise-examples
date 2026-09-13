@@ -1,0 +1,9 @@
+# 変数名のパターンでまとめてマスクする。トップレベル（[env] の外）に置く。
+redactions = ["*_KEY", "*_TOKEN", "*_SECRET"]
+
+[env]
+API_KEY = "sk-not-a-real-key"
+PUBLIC_URL = "https://example.com"
+
+[tasks.show]
+run = "echo API_KEY=$API_KEY PUBLIC_URL=$PUBLIC_URL"

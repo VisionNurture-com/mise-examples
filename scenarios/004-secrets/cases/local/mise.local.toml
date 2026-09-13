@@ -1,0 +1,4 @@
+# 手元だけの上書き。
+# 🔴 mise は .gitignore を書かない。足すのは利用者（公式 configuration/environments.md）。
+[env]
+APP_TOKEN = "from-local-override"

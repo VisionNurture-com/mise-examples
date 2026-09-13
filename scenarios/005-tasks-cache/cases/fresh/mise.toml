@@ -1,0 +1,5 @@
+[tasks.build]
+description = "入力が変わらなければ飛ばす（タイムスタンプ比較）"
+sources = ["src/**/*.txt"]
+outputs = ["dist/app.txt"]
+run = 'mkdir -p dist; cat src/*.txt > dist/app.txt; echo BUILT'

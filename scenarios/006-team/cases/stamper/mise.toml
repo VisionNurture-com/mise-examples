@@ -1,0 +1,6 @@
+[settings]
+# 発行者の署名に加えて、指定したスタンパーの承認も要求する
+packslip.stampers = ["example.invalid"]
+
+[tools]
+"packslip:github.com/jdx/hk" = "1.58.1"

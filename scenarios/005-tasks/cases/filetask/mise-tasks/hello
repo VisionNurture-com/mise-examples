@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# mise-tasks/ に置いた実行ファイルは、そのままタスクになる。
+echo FILE_TASK

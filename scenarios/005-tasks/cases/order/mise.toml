@@ -1,0 +1,10 @@
+[tasks.prepare]
+run = "echo PREPARE"
+
+[tasks.cleanup]
+run = "echo CLEANUP"
+
+[tasks.main]
+depends = ["prepare"]
+depends_post = ["cleanup"]
+run = "echo MAIN"

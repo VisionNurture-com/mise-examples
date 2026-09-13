@@ -1,0 +1,3 @@
+# 平文を宣言に置く。いちばん素朴な置き場所。
+[env]
+APP_TOKEN = "plain-value-not-a-real-secret"

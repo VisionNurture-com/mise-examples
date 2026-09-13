@@ -1,0 +1,28 @@
+- hosts: all
+  gather_facts: true
+  vars:
+    jq_version: "1.8.1"
+    jq_os: "{{ 'macos' if ansible_system == 'Darwin' else 'linux' }}"
+    jq_arch: "{{ 'arm64' if ansible_architecture in ['arm64', 'aarch64'] else 'amd64' }}"
+  tasks:
+    - name: bin ディレクトリを用意する
+      ansible.builtin.file:
+        path: "{{ ansible_env.HOME }}/bin"
+        state: directory
+        mode: "0755"
+    - name: 版を固定して jq を置く
+      ansible.builtin.get_url:
+        url: "https://github.com/jqlang/jq/releases/download/jq-{{ jq_version }}/jq-{{ jq_os }}-{{ jq_arch }}"
+        dest: "{{ ansible_env.HOME }}/bin/jq"
+        mode: "0755"
+    - name: 環境変数をログインシェルへ入れる
+      ansible.builtin.lineinfile:
+        path: "{{ ansible_env.HOME }}/.profile"
+        line: "export HANDOFF=ok"
+        create: true
+        mode: "0644"
+    - name: dotfile を置く
+      ansible.builtin.copy:
+        src: handoffrc
+        dest: "{{ ansible_env.HOME }}/.handoffrc"
+        mode: "0644"

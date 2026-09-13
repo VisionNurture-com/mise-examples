@@ -1,0 +1,26 @@
+[tasks.main]
+description = "6 本の依存を並べて、同時にいくつ走るかを測る"
+depends = ["t1", "t2", "t3", "t4", "t5", "t6"]
+depends_post = ["after"]
+run = 'echo MAIN'
+
+[tasks.t1]
+run = 'echo "START t1" >> events.log; sleep 1; echo "END t1" >> events.log'
+
+[tasks.t2]
+run = 'echo "START t2" >> events.log; sleep 1; echo "END t2" >> events.log'
+
+[tasks.t3]
+run = 'echo "START t3" >> events.log; sleep 1; echo "END t3" >> events.log'
+
+[tasks.t4]
+run = 'echo "START t4" >> events.log; sleep 1; echo "END t4" >> events.log'
+
+[tasks.t5]
+run = 'echo "START t5" >> events.log; sleep 1; echo "END t5" >> events.log'
+
+[tasks.t6]
+run = 'echo "START t6" >> events.log; sleep 1; echo "END t6" >> events.log'
+
+[tasks.after]
+run = 'echo AFTER'

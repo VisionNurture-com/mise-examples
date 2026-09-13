@@ -1,0 +1,29 @@
+# デモ用プロジェクト。clone して `mise install` を実行すると、
+# ここに書いてある道具とバージョンがそのまま手元にそろう。
+min_version = "2026.9.0"
+
+[tools]
+node = "24"
+python = "3.14"
+
+[settings]
+# 解決したバージョンを mise.lock に固定する。
+# 固定しないと「同じ 24 でも人によって 24.19 と 24.20 が入る」が起きる。
+lockfile = true
+
+[env]
+APP_NAME = "mise-examples-demo"
+# .env は各自の値を書く場所。リポジトリには .env.example だけを置く。
+_.file = ".env"
+
+[tasks.hello]
+description = "そろった道具のバージョンを表示する"
+run = [
+  "node --version",
+  "python --version",
+]
+
+[tasks.check]
+description = "デモの前提が満たされているかを見る"
+depends = ["hello"]
+run = "node scripts/check.mjs"

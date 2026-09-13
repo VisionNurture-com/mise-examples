@@ -1,0 +1,6 @@
+[tools]
+node = "22"
+
+[settings]
+# 解決した版を mise.lock に固定する
+lockfile = true

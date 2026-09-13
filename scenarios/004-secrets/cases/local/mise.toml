@@ -1,0 +1,3 @@
+# 共有する側。ここには秘密を書かない。
+[env]
+APP_TOKEN = "from-shared-config"

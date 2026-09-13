@@ -1,0 +1,9 @@
+[settings]
+experimental = true
+
+[tasks.build]
+description = "成果物キャッシュを有効にしたビルド"
+sources = ["src/**/*.txt"]
+outputs = ["dist/app.txt"]
+cache = { enabled = true }
+run = 'mkdir -p dist; cat src/*.txt > dist/app.txt; echo BUILT'

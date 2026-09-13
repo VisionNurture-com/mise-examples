@@ -1,0 +1,7 @@
+# 値そのものを mise.toml の中で暗号化する（Direct age・experimental）。
+# [env] の中身は run.sh が `mise set --age-encrypt` で書き込む。
+[settings]
+experimental = true
+
+[tools]
+age = "latest"

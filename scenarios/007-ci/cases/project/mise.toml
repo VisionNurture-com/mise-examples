@@ -1,0 +1,8 @@
+[tools]
+node = "22"
+
+[env]
+NODE_ENV = "test"
+
+[tasks.ci]
+run = "node -e \"console.log('NODE_ENV=' + process.env.NODE_ENV)\""

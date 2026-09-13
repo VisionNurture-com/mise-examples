@@ -1,0 +1,6 @@
+[tasks.build]
+description = "experimental を立てずに成果物キャッシュを書いた場合"
+sources = ["src/**/*.txt"]
+outputs = ["dist/app.txt"]
+cache = { enabled = true }
+run = 'mkdir -p dist; cat src/*.txt > dist/app.txt; echo BUILT'
