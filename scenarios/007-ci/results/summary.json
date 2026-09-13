@@ -1,0 +1,7 @@
+{
+  "secondInstallIsNoop": true,
+  "readableWithoutTrust": false,
+  "readableWithDeclaredPath": true,
+  "envReachesTask": true,
+  "naiveSeesParent": true
+}

@@ -1,0 +1,14 @@
+{
+  "freshFirstBuilds": true,
+  "freshSecondBuilds": false,
+  "freshSecondRuns": false,
+  "freshSkipLine": "[build] sources up-to-date, skipping",
+  "freshRebuildsWhenOutputDeleted": true,
+  "artifactFirstRuns": true,
+  "artifactSecondRuns": false,
+  "artifactSecondHitsCache": true,
+  "artifactSecondPrintsBuiltAnyway": true,
+  "artifactRestoresDeletedOutput": true,
+  "artifactWithoutExperimentalSucceeds": false,
+  "artifactWithoutExperimentalErrors": true
+}

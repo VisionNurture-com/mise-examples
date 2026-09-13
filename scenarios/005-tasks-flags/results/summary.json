@@ -1,0 +1,11 @@
+{
+  "absentIsSet": false,
+  "absentValue": "<unset>",
+  "absentPlusExpands": false,
+  "absentDashDefault": "[false]",
+  "presentValue": "[true]",
+  "presentPlusExpands": true,
+  "defaultDeclaredIsSet": true,
+  "defaultDeclaredValue": "[false]",
+  "defaultDeclaredPlusExpands": true
+}

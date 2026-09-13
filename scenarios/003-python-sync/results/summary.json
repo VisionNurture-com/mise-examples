@@ -1,0 +1,17 @@
+{
+  "uvOnlyVersion": "3.11",
+  "miseHadItBefore": 0,
+  "miseHasItAfter": 2,
+  "miseEntryIsSymlink": true,
+  "minorSpec": "3.14",
+  "minorResolvedBeforeSync": "3.14.7",
+  "minorResolvedAfterSync": "3.14",
+  "minorBoundToAliasAfterSync": true,
+  "syncedUvToMiseAny": true,
+  "syncedUvToMise": 9,
+  "syncedMiseToUv": 0,
+  "pythonVersionFilesCreated": 0,
+  "measuredAt": "2026-09-12T07:09:41Z",
+  "miseVersion": "2026.9.5",
+  "uvVersion": "0.12.13"
+}

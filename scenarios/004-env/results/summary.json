@@ -1,0 +1,12 @@
+{
+  "basicSet": true,
+  "fileSet": true,
+  "pathAdded": true,
+  "sourceSet": true,
+  "redactedInRun": true,
+  "plainInRun": true,
+  "requiredFails": true,
+  "envDefault": "base",
+  "envProduction": "prod",
+  "naiveSeesParent": true
+}

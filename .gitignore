@@ -1,4 +1,5 @@
 node_modules/
 demo/.env
-scenarios/*/results/
+scenarios/*/results/*
+!scenarios/*/results/summary.json
 scenarios/*/cases/*/dist/

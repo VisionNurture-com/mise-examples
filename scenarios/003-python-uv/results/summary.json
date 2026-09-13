@@ -1,0 +1,11 @@
+{
+  "nolockHasUvLock": false,
+  "nolockHasVenv": true,
+  "nolockSourcedVenv": false,
+  "withlockHasUvLock": true,
+  "withlockSourcedVenv": true,
+  "seqSourcedVenv": true,
+  "measuredAt": "2026-09-12T07:09:40Z",
+  "miseVersion": "2026.9.5",
+  "uvVersion": "0.12.13"
+}

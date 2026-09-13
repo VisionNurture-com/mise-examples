@@ -1,0 +1,9 @@
+{
+  "order": "PREPARE,MAIN,CLEANUP",
+  "fileTaskRuns": true,
+  "timeoutFires": true,
+  "usageArgPassed": true,
+  "firstRunBuilds": true,
+  "secondRunSkips": true,
+  "naiveSeesParent": true
+}

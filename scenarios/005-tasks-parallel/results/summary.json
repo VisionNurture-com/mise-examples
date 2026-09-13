@@ -1,0 +1,8 @@
+{
+  "defaultPeakConcurrency": 6,
+  "jobs2PeakConcurrency": 2,
+  "jobs8PeakConcurrency": 6,
+  "depsGraphHasLines": true,
+  "namedDepsShowsPost": false,
+  "allDepsShowsPost": true
+}

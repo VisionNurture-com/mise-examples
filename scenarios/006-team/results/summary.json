@@ -1,0 +1,11 @@
+{
+  "lockCreatedWhenEnabled": true,
+  "lockCreatedWhenNotEnabled": false,
+  "localOverrides": true,
+  "readableWithoutTrust": false,
+  "readableWithTrustedPath": true,
+  "signedInstallSucceeds": true,
+  "unapprovedStamperBlocks": true,
+  "toolVersionsRead": 1,
+  "naiveSeesParent": true
+}

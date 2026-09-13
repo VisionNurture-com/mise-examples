@@ -1,0 +1,12 @@
+{
+  "legacyUvPython": "3.13.13",
+  "legacyUvPythonShape": "version",
+  "stringUvPython": "none",
+  "legacyWarnLines": 0,
+  "stringWarnLines": 0,
+  "legacySourcedVenv": true,
+  "stringSourcedVenv": true,
+  "measuredAt": "2026-09-12T07:09:41Z",
+  "miseVersion": "2026.9.5",
+  "uvVersion": "0.12.13"
+}

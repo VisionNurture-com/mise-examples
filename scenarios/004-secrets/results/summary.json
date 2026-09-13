@@ -1,0 +1,16 @@
+{
+  "plainInEnv": true,
+  "localOverrides": true,
+  "miseWritesGitignore": false,
+  "experimentalRequired": true,
+  "ageNoPlaintextInToml": true,
+  "ageDecryptsWithKey": true,
+  "agePlainInEnv": true,
+  "ageFailsWithoutKey": true,
+  "sopsNoPlaintextInFile": true,
+  "sopsDecryptsWithKey": true,
+  "sopsFailsWithoutKey": true,
+  "fnoxNothingInMiseToml": true,
+  "fnoxUnsetWithout": true,
+  "fnoxProvidesWithExec": true
+}

@@ -1,0 +1,6 @@
+{
+  "bothSource": "package.json",
+  "bothDisabledSource": ".nvmrc",
+  "pkgJsonTools": 1,
+  "pkgJsonDisabledTools": 0
+}

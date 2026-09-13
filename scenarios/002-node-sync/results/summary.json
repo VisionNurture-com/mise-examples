@@ -1,0 +1,11 @@
+{
+  "syncedAllNvmVersions": true,
+  "everySyncedIsSymlink": true,
+  "nvmVersionCount": 3,
+  "syncedCount": 3,
+  "markedSymlink": 3,
+  "wherePointsAtMise": true,
+  "backingIsNvm": true,
+  "brokenLabelCount": 1,
+  "selfHealed": true
+}
